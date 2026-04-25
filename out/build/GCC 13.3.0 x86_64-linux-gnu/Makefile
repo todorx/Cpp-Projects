@@ -225,6 +225,30 @@ Zad-4/4.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/VS-Code-Projects.dir/build.make CMakeFiles/VS-Code-Projects.dir/Zad-4/4.cpp.s
 .PHONY : Zad-4/4.cpp.s
 
+Zad-5/5-1.o: Zad-5/5-1.cpp.o
+.PHONY : Zad-5/5-1.o
+
+# target to build an object file
+Zad-5/5-1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VS-Code-Projects.dir/build.make CMakeFiles/VS-Code-Projects.dir/Zad-5/5-1.cpp.o
+.PHONY : Zad-5/5-1.cpp.o
+
+Zad-5/5-1.i: Zad-5/5-1.cpp.i
+.PHONY : Zad-5/5-1.i
+
+# target to preprocess a source file
+Zad-5/5-1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VS-Code-Projects.dir/build.make CMakeFiles/VS-Code-Projects.dir/Zad-5/5-1.cpp.i
+.PHONY : Zad-5/5-1.cpp.i
+
+Zad-5/5-1.s: Zad-5/5-1.cpp.s
+.PHONY : Zad-5/5-1.s
+
+# target to generate assembly for a file
+Zad-5/5-1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VS-Code-Projects.dir/build.make CMakeFiles/VS-Code-Projects.dir/Zad-5/5-1.cpp.s
+.PHONY : Zad-5/5-1.cpp.s
+
 Zad-5/5.o: Zad-5/5.cpp.o
 .PHONY : Zad-5/5.o
 
@@ -249,6 +273,78 @@ Zad-5/5.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/VS-Code-Projects.dir/build.make CMakeFiles/VS-Code-Projects.dir/Zad-5/5.cpp.s
 .PHONY : Zad-5/5.cpp.s
 
+Zad-6/6.o: Zad-6/6.cpp.o
+.PHONY : Zad-6/6.o
+
+# target to build an object file
+Zad-6/6.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VS-Code-Projects.dir/build.make CMakeFiles/VS-Code-Projects.dir/Zad-6/6.cpp.o
+.PHONY : Zad-6/6.cpp.o
+
+Zad-6/6.i: Zad-6/6.cpp.i
+.PHONY : Zad-6/6.i
+
+# target to preprocess a source file
+Zad-6/6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VS-Code-Projects.dir/build.make CMakeFiles/VS-Code-Projects.dir/Zad-6/6.cpp.i
+.PHONY : Zad-6/6.cpp.i
+
+Zad-6/6.s: Zad-6/6.cpp.s
+.PHONY : Zad-6/6.s
+
+# target to generate assembly for a file
+Zad-6/6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VS-Code-Projects.dir/build.make CMakeFiles/VS-Code-Projects.dir/Zad-6/6.cpp.s
+.PHONY : Zad-6/6.cpp.s
+
+Zad-7/7.o: Zad-7/7.cpp.o
+.PHONY : Zad-7/7.o
+
+# target to build an object file
+Zad-7/7.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VS-Code-Projects.dir/build.make CMakeFiles/VS-Code-Projects.dir/Zad-7/7.cpp.o
+.PHONY : Zad-7/7.cpp.o
+
+Zad-7/7.i: Zad-7/7.cpp.i
+.PHONY : Zad-7/7.i
+
+# target to preprocess a source file
+Zad-7/7.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VS-Code-Projects.dir/build.make CMakeFiles/VS-Code-Projects.dir/Zad-7/7.cpp.i
+.PHONY : Zad-7/7.cpp.i
+
+Zad-7/7.s: Zad-7/7.cpp.s
+.PHONY : Zad-7/7.s
+
+# target to generate assembly for a file
+Zad-7/7.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VS-Code-Projects.dir/build.make CMakeFiles/VS-Code-Projects.dir/Zad-7/7.cpp.s
+.PHONY : Zad-7/7.cpp.s
+
+Zad-8/8.o: Zad-8/8.cpp.o
+.PHONY : Zad-8/8.o
+
+# target to build an object file
+Zad-8/8.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VS-Code-Projects.dir/build.make CMakeFiles/VS-Code-Projects.dir/Zad-8/8.cpp.o
+.PHONY : Zad-8/8.cpp.o
+
+Zad-8/8.i: Zad-8/8.cpp.i
+.PHONY : Zad-8/8.i
+
+# target to preprocess a source file
+Zad-8/8.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VS-Code-Projects.dir/build.make CMakeFiles/VS-Code-Projects.dir/Zad-8/8.cpp.i
+.PHONY : Zad-8/8.cpp.i
+
+Zad-8/8.s: Zad-8/8.cpp.s
+.PHONY : Zad-8/8.s
+
+# target to generate assembly for a file
+Zad-8/8.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VS-Code-Projects.dir/build.make CMakeFiles/VS-Code-Projects.dir/Zad-8/8.cpp.s
+.PHONY : Zad-8/8.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -270,9 +366,21 @@ help:
 	@echo "... Zad-4/4.o"
 	@echo "... Zad-4/4.i"
 	@echo "... Zad-4/4.s"
+	@echo "... Zad-5/5-1.o"
+	@echo "... Zad-5/5-1.i"
+	@echo "... Zad-5/5-1.s"
 	@echo "... Zad-5/5.o"
 	@echo "... Zad-5/5.i"
 	@echo "... Zad-5/5.s"
+	@echo "... Zad-6/6.o"
+	@echo "... Zad-6/6.i"
+	@echo "... Zad-6/6.s"
+	@echo "... Zad-7/7.o"
+	@echo "... Zad-7/7.i"
+	@echo "... Zad-7/7.s"
+	@echo "... Zad-8/8.o"
+	@echo "... Zad-8/8.i"
+	@echo "... Zad-8/8.s"
 .PHONY : help
 
 

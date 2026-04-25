@@ -28,5 +28,29 @@
   "command": "/usr/bin/g++   -g -o CMakeFiles/VS-Code-Projects.dir/Zad-5/5.cpp.o -c /home/todor/VS-Code-Projects/Zad-5/5.cpp",
   "file": "/home/todor/VS-Code-Projects/Zad-5/5.cpp",
   "output": "CMakeFiles/VS-Code-Projects.dir/Zad-5/5.cpp.o"
+},
+{
+  "directory": "/home/todor/VS-Code-Projects/out/build/GCC 13.3.0 x86_64-linux-gnu",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/VS-Code-Projects.dir/Zad-5/5-1.cpp.o -c /home/todor/VS-Code-Projects/Zad-5/5-1.cpp",
+  "file": "/home/todor/VS-Code-Projects/Zad-5/5-1.cpp",
+  "output": "CMakeFiles/VS-Code-Projects.dir/Zad-5/5-1.cpp.o"
+},
+{
+  "directory": "/home/todor/VS-Code-Projects/out/build/GCC 13.3.0 x86_64-linux-gnu",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/VS-Code-Projects.dir/Zad-6/6.cpp.o -c /home/todor/VS-Code-Projects/Zad-6/6.cpp",
+  "file": "/home/todor/VS-Code-Projects/Zad-6/6.cpp",
+  "output": "CMakeFiles/VS-Code-Projects.dir/Zad-6/6.cpp.o"
+},
+{
+  "directory": "/home/todor/VS-Code-Projects/out/build/GCC 13.3.0 x86_64-linux-gnu",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/VS-Code-Projects.dir/Zad-7/7.cpp.o -c /home/todor/VS-Code-Projects/Zad-7/7.cpp",
+  "file": "/home/todor/VS-Code-Projects/Zad-7/7.cpp",
+  "output": "CMakeFiles/VS-Code-Projects.dir/Zad-7/7.cpp.o"
+},
+{
+  "directory": "/home/todor/VS-Code-Projects/out/build/GCC 13.3.0 x86_64-linux-gnu",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/VS-Code-Projects.dir/Zad-8/8.cpp.o -c /home/todor/VS-Code-Projects/Zad-8/8.cpp",
+  "file": "/home/todor/VS-Code-Projects/Zad-8/8.cpp",
+  "output": "CMakeFiles/VS-Code-Projects.dir/Zad-8/8.cpp.o"
 }
 ]
