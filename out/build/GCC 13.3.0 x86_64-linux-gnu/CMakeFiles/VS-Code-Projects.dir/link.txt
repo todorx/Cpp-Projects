@@ -1,0 +1,1 @@
+/usr/bin/g++ -g "CMakeFiles/VS-Code-Projects.dir/Zad-1/main.cpp.o" "CMakeFiles/VS-Code-Projects.dir/Zad-2/2.cpp.o" "CMakeFiles/VS-Code-Projects.dir/Zad-3/3.cpp.o" "CMakeFiles/VS-Code-Projects.dir/Zad-4/4.cpp.o" "CMakeFiles/VS-Code-Projects.dir/Zad-5/5.cpp.o" -o VS-Code-Projects 
