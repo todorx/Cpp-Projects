@@ -345,6 +345,30 @@ Zad-8/8.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/VS-Code-Projects.dir/build.make CMakeFiles/VS-Code-Projects.dir/Zad-8/8.cpp.s
 .PHONY : Zad-8/8.cpp.s
 
+Zad-9/9.o: Zad-9/9.cpp.o
+.PHONY : Zad-9/9.o
+
+# target to build an object file
+Zad-9/9.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VS-Code-Projects.dir/build.make CMakeFiles/VS-Code-Projects.dir/Zad-9/9.cpp.o
+.PHONY : Zad-9/9.cpp.o
+
+Zad-9/9.i: Zad-9/9.cpp.i
+.PHONY : Zad-9/9.i
+
+# target to preprocess a source file
+Zad-9/9.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VS-Code-Projects.dir/build.make CMakeFiles/VS-Code-Projects.dir/Zad-9/9.cpp.i
+.PHONY : Zad-9/9.cpp.i
+
+Zad-9/9.s: Zad-9/9.cpp.s
+.PHONY : Zad-9/9.s
+
+# target to generate assembly for a file
+Zad-9/9.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VS-Code-Projects.dir/build.make CMakeFiles/VS-Code-Projects.dir/Zad-9/9.cpp.s
+.PHONY : Zad-9/9.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -381,6 +405,9 @@ help:
 	@echo "... Zad-8/8.o"
 	@echo "... Zad-8/8.i"
 	@echo "... Zad-8/8.s"
+	@echo "... Zad-9/9.o"
+	@echo "... Zad-9/9.i"
+	@echo "... Zad-9/9.s"
 .PHONY : help
 
 

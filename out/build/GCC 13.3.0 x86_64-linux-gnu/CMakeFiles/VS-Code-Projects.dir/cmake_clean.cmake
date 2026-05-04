@@ -17,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/VS-Code-Projects.dir/Zad-7/7.cpp.o.d"
   "CMakeFiles/VS-Code-Projects.dir/Zad-8/8.cpp.o"
   "CMakeFiles/VS-Code-Projects.dir/Zad-8/8.cpp.o.d"
+  "CMakeFiles/VS-Code-Projects.dir/Zad-9/9.cpp.o"
+  "CMakeFiles/VS-Code-Projects.dir/Zad-9/9.cpp.o.d"
   "VS-Code-Projects"
   "VS-Code-Projects.pdb"
 )

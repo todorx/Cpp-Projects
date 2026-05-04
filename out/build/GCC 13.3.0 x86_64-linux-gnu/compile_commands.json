@@ -52,5 +52,11 @@
   "command": "/usr/bin/g++   -g -o CMakeFiles/VS-Code-Projects.dir/Zad-8/8.cpp.o -c /home/todor/VS-Code-Projects/Zad-8/8.cpp",
   "file": "/home/todor/VS-Code-Projects/Zad-8/8.cpp",
   "output": "CMakeFiles/VS-Code-Projects.dir/Zad-8/8.cpp.o"
+},
+{
+  "directory": "/home/todor/VS-Code-Projects/out/build/GCC 13.3.0 x86_64-linux-gnu",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/VS-Code-Projects.dir/Zad-9/9.cpp.o -c /home/todor/VS-Code-Projects/Zad-9/9.cpp",
+  "file": "/home/todor/VS-Code-Projects/Zad-9/9.cpp",
+  "output": "CMakeFiles/VS-Code-Projects.dir/Zad-9/9.cpp.o"
 }
 ]

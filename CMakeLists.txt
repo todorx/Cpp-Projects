@@ -7,5 +7,6 @@ add_executable(VS-Code-Projects Zad-1/main.cpp Zad-2/2.cpp Zad-3/3.cpp
     Zad-5/5-1.cpp
     Zad-6/6.cpp
     Zad-7/7.cpp
-    Zad-8/8.cpp)
+    Zad-8/8.cpp
+    Zad-9/9.cpp)
 

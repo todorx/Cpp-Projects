@@ -17,6 +17,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/todor/VS-Code-Projects/Zad-6/6.cpp" "CMakeFiles/VS-Code-Projects.dir/Zad-6/6.cpp.o" "gcc" "CMakeFiles/VS-Code-Projects.dir/Zad-6/6.cpp.o.d"
   "/home/todor/VS-Code-Projects/Zad-7/7.cpp" "CMakeFiles/VS-Code-Projects.dir/Zad-7/7.cpp.o" "gcc" "CMakeFiles/VS-Code-Projects.dir/Zad-7/7.cpp.o.d"
   "/home/todor/VS-Code-Projects/Zad-8/8.cpp" "CMakeFiles/VS-Code-Projects.dir/Zad-8/8.cpp.o" "gcc" "CMakeFiles/VS-Code-Projects.dir/Zad-8/8.cpp.o.d"
+  "/home/todor/VS-Code-Projects/Zad-9/9.cpp" "CMakeFiles/VS-Code-Projects.dir/Zad-9/9.cpp.o" "gcc" "CMakeFiles/VS-Code-Projects.dir/Zad-9/9.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
