@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/VS-Code-Projects.dir/Zad-1/main.cpp.o"
   "CMakeFiles/VS-Code-Projects.dir/Zad-1/main.cpp.o.d"
+  "CMakeFiles/VS-Code-Projects.dir/Zad-10/10.cpp.o"
+  "CMakeFiles/VS-Code-Projects.dir/Zad-10/10.cpp.o.d"
   "CMakeFiles/VS-Code-Projects.dir/Zad-2/2.cpp.o"
   "CMakeFiles/VS-Code-Projects.dir/Zad-2/2.cpp.o.d"
   "CMakeFiles/VS-Code-Projects.dir/Zad-3/3.cpp.o"

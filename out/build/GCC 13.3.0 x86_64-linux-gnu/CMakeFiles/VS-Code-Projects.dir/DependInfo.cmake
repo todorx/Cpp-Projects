@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/todor/VS-Code-Projects/Zad-1/main.cpp" "CMakeFiles/VS-Code-Projects.dir/Zad-1/main.cpp.o" "gcc" "CMakeFiles/VS-Code-Projects.dir/Zad-1/main.cpp.o.d"
+  "/home/todor/VS-Code-Projects/Zad-10/10.cpp" "CMakeFiles/VS-Code-Projects.dir/Zad-10/10.cpp.o" "gcc" "CMakeFiles/VS-Code-Projects.dir/Zad-10/10.cpp.o.d"
   "/home/todor/VS-Code-Projects/Zad-2/2.cpp" "CMakeFiles/VS-Code-Projects.dir/Zad-2/2.cpp.o" "gcc" "CMakeFiles/VS-Code-Projects.dir/Zad-2/2.cpp.o.d"
   "/home/todor/VS-Code-Projects/Zad-3/3.cpp" "CMakeFiles/VS-Code-Projects.dir/Zad-3/3.cpp.o" "gcc" "CMakeFiles/VS-Code-Projects.dir/Zad-3/3.cpp.o.d"
   "/home/todor/VS-Code-Projects/Zad-4/4.cpp" "CMakeFiles/VS-Code-Projects.dir/Zad-4/4.cpp.o" "gcc" "CMakeFiles/VS-Code-Projects.dir/Zad-4/4.cpp.o.d"

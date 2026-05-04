@@ -81,12 +81,12 @@ clean: CMakeFiles/VS-Code-Projects.dir/clean
 CMakeFiles/VS-Code-Projects.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/VS-Code-Projects.dir/build.make CMakeFiles/VS-Code-Projects.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/VS-Code-Projects.dir/build.make CMakeFiles/VS-Code-Projects.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/todor/VS-Code-Projects/out/build/GCC 13.3.0 x86_64-linux-gnu/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target VS-Code-Projects"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/todor/VS-Code-Projects/out/build/GCC 13.3.0 x86_64-linux-gnu/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target VS-Code-Projects"
 .PHONY : CMakeFiles/VS-Code-Projects.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/VS-Code-Projects.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/todor/VS-Code-Projects/out/build/GCC 13.3.0 x86_64-linux-gnu/CMakeFiles" 11
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/todor/VS-Code-Projects/out/build/GCC 13.3.0 x86_64-linux-gnu/CMakeFiles" 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/VS-Code-Projects.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/todor/VS-Code-Projects/out/build/GCC 13.3.0 x86_64-linux-gnu/CMakeFiles" 0
 .PHONY : CMakeFiles/VS-Code-Projects.dir/rule

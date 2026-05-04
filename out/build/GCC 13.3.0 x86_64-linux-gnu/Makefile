@@ -153,6 +153,30 @@ Zad-1/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/VS-Code-Projects.dir/build.make CMakeFiles/VS-Code-Projects.dir/Zad-1/main.cpp.s
 .PHONY : Zad-1/main.cpp.s
 
+Zad-10/10.o: Zad-10/10.cpp.o
+.PHONY : Zad-10/10.o
+
+# target to build an object file
+Zad-10/10.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VS-Code-Projects.dir/build.make CMakeFiles/VS-Code-Projects.dir/Zad-10/10.cpp.o
+.PHONY : Zad-10/10.cpp.o
+
+Zad-10/10.i: Zad-10/10.cpp.i
+.PHONY : Zad-10/10.i
+
+# target to preprocess a source file
+Zad-10/10.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VS-Code-Projects.dir/build.make CMakeFiles/VS-Code-Projects.dir/Zad-10/10.cpp.i
+.PHONY : Zad-10/10.cpp.i
+
+Zad-10/10.s: Zad-10/10.cpp.s
+.PHONY : Zad-10/10.s
+
+# target to generate assembly for a file
+Zad-10/10.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VS-Code-Projects.dir/build.make CMakeFiles/VS-Code-Projects.dir/Zad-10/10.cpp.s
+.PHONY : Zad-10/10.cpp.s
+
 Zad-2/2.o: Zad-2/2.cpp.o
 .PHONY : Zad-2/2.o
 
@@ -381,6 +405,9 @@ help:
 	@echo "... Zad-1/main.o"
 	@echo "... Zad-1/main.i"
 	@echo "... Zad-1/main.s"
+	@echo "... Zad-10/10.o"
+	@echo "... Zad-10/10.i"
+	@echo "... Zad-10/10.s"
 	@echo "... Zad-2/2.o"
 	@echo "... Zad-2/2.i"
 	@echo "... Zad-2/2.s"
