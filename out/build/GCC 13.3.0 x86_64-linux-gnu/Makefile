@@ -177,6 +177,54 @@ Zad-10/10.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/VS-Code-Projects.dir/build.make CMakeFiles/VS-Code-Projects.dir/Zad-10/10.cpp.s
 .PHONY : Zad-10/10.cpp.s
 
+Zad-11/11.o: Zad-11/11.cpp.o
+.PHONY : Zad-11/11.o
+
+# target to build an object file
+Zad-11/11.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VS-Code-Projects.dir/build.make CMakeFiles/VS-Code-Projects.dir/Zad-11/11.cpp.o
+.PHONY : Zad-11/11.cpp.o
+
+Zad-11/11.i: Zad-11/11.cpp.i
+.PHONY : Zad-11/11.i
+
+# target to preprocess a source file
+Zad-11/11.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VS-Code-Projects.dir/build.make CMakeFiles/VS-Code-Projects.dir/Zad-11/11.cpp.i
+.PHONY : Zad-11/11.cpp.i
+
+Zad-11/11.s: Zad-11/11.cpp.s
+.PHONY : Zad-11/11.s
+
+# target to generate assembly for a file
+Zad-11/11.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VS-Code-Projects.dir/build.make CMakeFiles/VS-Code-Projects.dir/Zad-11/11.cpp.s
+.PHONY : Zad-11/11.cpp.s
+
+Zad-12/12.o: Zad-12/12.cpp.o
+.PHONY : Zad-12/12.o
+
+# target to build an object file
+Zad-12/12.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VS-Code-Projects.dir/build.make CMakeFiles/VS-Code-Projects.dir/Zad-12/12.cpp.o
+.PHONY : Zad-12/12.cpp.o
+
+Zad-12/12.i: Zad-12/12.cpp.i
+.PHONY : Zad-12/12.i
+
+# target to preprocess a source file
+Zad-12/12.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VS-Code-Projects.dir/build.make CMakeFiles/VS-Code-Projects.dir/Zad-12/12.cpp.i
+.PHONY : Zad-12/12.cpp.i
+
+Zad-12/12.s: Zad-12/12.cpp.s
+.PHONY : Zad-12/12.s
+
+# target to generate assembly for a file
+Zad-12/12.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VS-Code-Projects.dir/build.make CMakeFiles/VS-Code-Projects.dir/Zad-12/12.cpp.s
+.PHONY : Zad-12/12.cpp.s
+
 Zad-2/2.o: Zad-2/2.cpp.o
 .PHONY : Zad-2/2.o
 
@@ -408,6 +456,12 @@ help:
 	@echo "... Zad-10/10.o"
 	@echo "... Zad-10/10.i"
 	@echo "... Zad-10/10.s"
+	@echo "... Zad-11/11.o"
+	@echo "... Zad-11/11.i"
+	@echo "... Zad-11/11.s"
+	@echo "... Zad-12/12.o"
+	@echo "... Zad-12/12.i"
+	@echo "... Zad-12/12.s"
 	@echo "... Zad-2/2.o"
 	@echo "... Zad-2/2.i"
 	@echo "... Zad-2/2.s"

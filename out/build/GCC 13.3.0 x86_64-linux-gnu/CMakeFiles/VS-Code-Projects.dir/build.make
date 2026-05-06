@@ -223,6 +223,34 @@ CMakeFiles/VS-Code-Projects.dir/Zad-10/10.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VS-Code-Projects.dir/Zad-10/10.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/todor/VS-Code-Projects/Zad-10/10.cpp -o CMakeFiles/VS-Code-Projects.dir/Zad-10/10.cpp.s
 
+CMakeFiles/VS-Code-Projects.dir/Zad-11/11.cpp.o: CMakeFiles/VS-Code-Projects.dir/flags.make
+CMakeFiles/VS-Code-Projects.dir/Zad-11/11.cpp.o: /home/todor/VS-Code-Projects/Zad-11/11.cpp
+CMakeFiles/VS-Code-Projects.dir/Zad-11/11.cpp.o: CMakeFiles/VS-Code-Projects.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/todor/VS-Code-Projects/out/build/GCC 13.3.0 x86_64-linux-gnu/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/VS-Code-Projects.dir/Zad-11/11.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VS-Code-Projects.dir/Zad-11/11.cpp.o -MF CMakeFiles/VS-Code-Projects.dir/Zad-11/11.cpp.o.d -o CMakeFiles/VS-Code-Projects.dir/Zad-11/11.cpp.o -c /home/todor/VS-Code-Projects/Zad-11/11.cpp
+
+CMakeFiles/VS-Code-Projects.dir/Zad-11/11.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VS-Code-Projects.dir/Zad-11/11.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/todor/VS-Code-Projects/Zad-11/11.cpp > CMakeFiles/VS-Code-Projects.dir/Zad-11/11.cpp.i
+
+CMakeFiles/VS-Code-Projects.dir/Zad-11/11.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VS-Code-Projects.dir/Zad-11/11.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/todor/VS-Code-Projects/Zad-11/11.cpp -o CMakeFiles/VS-Code-Projects.dir/Zad-11/11.cpp.s
+
+CMakeFiles/VS-Code-Projects.dir/Zad-12/12.cpp.o: CMakeFiles/VS-Code-Projects.dir/flags.make
+CMakeFiles/VS-Code-Projects.dir/Zad-12/12.cpp.o: /home/todor/VS-Code-Projects/Zad-12/12.cpp
+CMakeFiles/VS-Code-Projects.dir/Zad-12/12.cpp.o: CMakeFiles/VS-Code-Projects.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/todor/VS-Code-Projects/out/build/GCC 13.3.0 x86_64-linux-gnu/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/VS-Code-Projects.dir/Zad-12/12.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VS-Code-Projects.dir/Zad-12/12.cpp.o -MF CMakeFiles/VS-Code-Projects.dir/Zad-12/12.cpp.o.d -o CMakeFiles/VS-Code-Projects.dir/Zad-12/12.cpp.o -c /home/todor/VS-Code-Projects/Zad-12/12.cpp
+
+CMakeFiles/VS-Code-Projects.dir/Zad-12/12.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VS-Code-Projects.dir/Zad-12/12.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/todor/VS-Code-Projects/Zad-12/12.cpp > CMakeFiles/VS-Code-Projects.dir/Zad-12/12.cpp.i
+
+CMakeFiles/VS-Code-Projects.dir/Zad-12/12.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VS-Code-Projects.dir/Zad-12/12.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/todor/VS-Code-Projects/Zad-12/12.cpp -o CMakeFiles/VS-Code-Projects.dir/Zad-12/12.cpp.s
+
 # Object files for target VS-Code-Projects
 VS__Code__Projects_OBJECTS = \
 "CMakeFiles/VS-Code-Projects.dir/Zad-1/main.cpp.o" \
@@ -235,7 +263,9 @@ VS__Code__Projects_OBJECTS = \
 "CMakeFiles/VS-Code-Projects.dir/Zad-7/7.cpp.o" \
 "CMakeFiles/VS-Code-Projects.dir/Zad-8/8.cpp.o" \
 "CMakeFiles/VS-Code-Projects.dir/Zad-9/9.cpp.o" \
-"CMakeFiles/VS-Code-Projects.dir/Zad-10/10.cpp.o"
+"CMakeFiles/VS-Code-Projects.dir/Zad-10/10.cpp.o" \
+"CMakeFiles/VS-Code-Projects.dir/Zad-11/11.cpp.o" \
+"CMakeFiles/VS-Code-Projects.dir/Zad-12/12.cpp.o"
 
 # External object files for target VS-Code-Projects
 VS__Code__Projects_EXTERNAL_OBJECTS =
@@ -251,9 +281,11 @@ VS-Code-Projects: CMakeFiles/VS-Code-Projects.dir/Zad-7/7.cpp.o
 VS-Code-Projects: CMakeFiles/VS-Code-Projects.dir/Zad-8/8.cpp.o
 VS-Code-Projects: CMakeFiles/VS-Code-Projects.dir/Zad-9/9.cpp.o
 VS-Code-Projects: CMakeFiles/VS-Code-Projects.dir/Zad-10/10.cpp.o
+VS-Code-Projects: CMakeFiles/VS-Code-Projects.dir/Zad-11/11.cpp.o
+VS-Code-Projects: CMakeFiles/VS-Code-Projects.dir/Zad-12/12.cpp.o
 VS-Code-Projects: CMakeFiles/VS-Code-Projects.dir/build.make
 VS-Code-Projects: CMakeFiles/VS-Code-Projects.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/todor/VS-Code-Projects/out/build/GCC 13.3.0 x86_64-linux-gnu/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable VS-Code-Projects"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/todor/VS-Code-Projects/out/build/GCC 13.3.0 x86_64-linux-gnu/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable VS-Code-Projects"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/VS-Code-Projects.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -64,5 +64,17 @@
   "command": "/usr/bin/g++   -g -o CMakeFiles/VS-Code-Projects.dir/Zad-10/10.cpp.o -c /home/todor/VS-Code-Projects/Zad-10/10.cpp",
   "file": "/home/todor/VS-Code-Projects/Zad-10/10.cpp",
   "output": "CMakeFiles/VS-Code-Projects.dir/Zad-10/10.cpp.o"
+},
+{
+  "directory": "/home/todor/VS-Code-Projects/out/build/GCC 13.3.0 x86_64-linux-gnu",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/VS-Code-Projects.dir/Zad-11/11.cpp.o -c /home/todor/VS-Code-Projects/Zad-11/11.cpp",
+  "file": "/home/todor/VS-Code-Projects/Zad-11/11.cpp",
+  "output": "CMakeFiles/VS-Code-Projects.dir/Zad-11/11.cpp.o"
+},
+{
+  "directory": "/home/todor/VS-Code-Projects/out/build/GCC 13.3.0 x86_64-linux-gnu",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/VS-Code-Projects.dir/Zad-12/12.cpp.o -c /home/todor/VS-Code-Projects/Zad-12/12.cpp",
+  "file": "/home/todor/VS-Code-Projects/Zad-12/12.cpp",
+  "output": "CMakeFiles/VS-Code-Projects.dir/Zad-12/12.cpp.o"
 }
 ]
