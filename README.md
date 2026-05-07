@@ -15,7 +15,7 @@ This repository contains a series of well-documented programming exercises desig
 
 | #                                                            | Exercise                                  | Topic                                 | Difficulty   |
 | ------------------------------------------------------------ | ----------------------------------------- | ------------------------------------- | ------------ |
-| [1](OOP Exercises/Exercise-1/readme.md)                      | Object-Oriented Programming & Inheritance | Classes, Inheritance, Polymorphism    | Intermediate |
+| [1](OOP%20Exercises/Exercise-1/readme.md)                    | Object-Oriented Programming & Inheritance | Classes, Inheritance, Polymorphism    | Intermediate |
 | [2](structured-programming-exercises/Exercise-2/readme.md)   | Matrix Pattern Detection                  | Arrays, Matrices, Logic               | Intermediate |
 | [3](structured-programming-exercises/Exercise-3/readme.md)   | Matrix Analysis                           | Linear Algebra, Statistics            | Intermediate |
 | [4](structured-programming-exercises/Exercise-4/readme.md)   | String Processing                         | String Manipulation, Edge Cases       | Intermediate |
