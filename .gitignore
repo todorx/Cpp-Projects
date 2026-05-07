@@ -1,3 +1,4 @@
 .vscode
 .cmakepresets.json
 .out
+out/
