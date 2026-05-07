@@ -13,20 +13,20 @@ This repository contains a series of well-documented programming exercises desig
 
 ## 🎯 Exercises
 
-| #                           | Exercise                                  | Topic                                 | Difficulty   |
-| --------------------------- | ----------------------------------------- | ------------------------------------- | ------------ |
-| [1](Exercise-1/readme.md)   | Object-Oriented Programming & Inheritance | Classes, Inheritance, Polymorphism    | Intermediate |
-| [2](Exercise-2/readme.md)   | Matrix Pattern Detection                  | Arrays, Matrices, Logic               | Intermediate |
-| [3](Exercise-3/readme.md)   | Matrix Analysis                           | Linear Algebra, Statistics            | Intermediate |
-| [4](Exercise-4/readme.md)   | String Processing                         | String Manipulation, Edge Cases       | Intermediate |
-| [5](Exercise-5/readme.md)   | Continued Fractions                       | Recursion, Floating-Point Math        | Advanced     |
-| [6](Exercise-6/readme.md)   | Substring Extraction                      | String Processing, Pattern Matching   | Beginner     |
-| [7](Exercise-7/readme.md)   | Digit Collection & Sorting                | Character Processing, Sorting         | Beginner     |
-| [8](Exercise-8/readme.md)   | Recursive Counting                        | Recursion, Array Processing           | Intermediate |
-| [9](Exercise-9/readme.md)   | Matrix Transformation                     | Matrix Operations, Conditional Logic  | Intermediate |
-| [10](Exercise-10/readme.md) | Matrix Reshaping                          | Array Manipulation, Dimensions        | Intermediate |
-| [11](Exercise-11/readme.md) | Number Analysis                           | Number Theory, Most Significant Digit | Beginner     |
-| [12](Exercise-12/readme.md) | Recursive Digit Transformation            | Recursion, Number Manipulation        | Advanced     |
+| #                                                            | Exercise                                  | Topic                                 | Difficulty   |
+| ------------------------------------------------------------ | ----------------------------------------- | ------------------------------------- | ------------ |
+| [1](OOP Exercises/Exercise-1/readme.md)                      | Object-Oriented Programming & Inheritance | Classes, Inheritance, Polymorphism    | Intermediate |
+| [2](structured-programming-exercises/Exercise-2/readme.md)   | Matrix Pattern Detection                  | Arrays, Matrices, Logic               | Intermediate |
+| [3](structured-programming-exercises/Exercise-3/readme.md)   | Matrix Analysis                           | Linear Algebra, Statistics            | Intermediate |
+| [4](structured-programming-exercises/Exercise-4/readme.md)   | String Processing                         | String Manipulation, Edge Cases       | Intermediate |
+| [5](structured-programming-exercises/Exercise-5/readme.md)   | Continued Fractions                       | Recursion, Floating-Point Math        | Advanced     |
+| [6](structured-programming-exercises/Exercise-6/readme.md)   | Substring Extraction                      | String Processing, Pattern Matching   | Beginner     |
+| [7](structured-programming-exercises/Exercise-7/readme.md)   | Digit Collection & Sorting                | Character Processing, Sorting         | Beginner     |
+| [8](structured-programming-exercises/Exercise-8/readme.md)   | Recursive Counting                        | Recursion, Array Processing           | Intermediate |
+| [9](structured-programming-exercises/Exercise-9/readme.md)   | Matrix Transformation                     | Matrix Operations, Conditional Logic  | Intermediate |
+| [10](structured-programming-exercises/Exercise-10/readme.md) | Matrix Reshaping                          | Array Manipulation, Dimensions        | Intermediate |
+| [11](structured-programming-exercises/Exercise-11/readme.md) | Number Analysis                           | Number Theory, Most Significant Digit | Beginner     |
+| [12](structured-programming-exercises/Exercise-12/readme.md) | Recursive Digit Transformation            | Recursion, Number Manipulation        | Advanced     |
 
 ## 🛠️ Requirements
 
@@ -92,8 +92,13 @@ After building, you can run individual exercises:
 # Run all exercises
 ./VS-Code-Projects
 
-# Or compile and run a specific exercise
-cd Exercise-5
+# Or compile and run a specific OOP exercise
+cd "OOP Exercises/Exercise-5"
+g++ -std=c++11 exercise.cpp -o exercise5
+./exercise5
+
+# Or compile and run a specific structured exercise
+cd structured-programming-exercises/Exercise-5
 g++ -std=c++11 5.cpp -o exercise5
 ./exercise5
 ```
@@ -106,43 +111,79 @@ VS-Code-Projects/
 ├── CMakePresets.json           # CMake build presets
 ├── README.md                   # This file
 ├── .gitignore                  # Git ignore rules
-├── Exercise-1/                 # OOP & Inheritance
-│   ├── main.cpp
-│   └── readme.md
-├── Exercise-2/                 # Matrix Pattern Detection
-│   ├── 2.cpp
-│   └── readme.md
-├── Exercise-3/                 # Matrix Analysis
-│   ├── 3.cpp
-│   └── readme.md
-├── Exercise-4/                 # String Processing
-│   ├── 4.cpp
-│   └── readme.md
-├── Exercise-5/                 # Continued Fractions
-│   ├── 5.cpp
-│   ├── 5-1.cpp
-│   └── readme.md
-├── Exercise-6/                 # Substring Extraction
-│   ├── 6.cpp
-│   └── readme.md
-├── Exercise-7/                 # Digit Collection
-│   ├── 7.cpp
-│   └── readme.md
-├── Exercise-8/                 # Recursive Counting
-│   ├── 8.cpp
-│   └── readme.md
-├── Exercise-9/                 # Matrix Transformation
-│   ├── 9.cpp
-│   └── readme.md
-├── Exercise-10/                # Matrix Reshaping
-│   ├── 10.cpp
-│   └── readme.md
-├── Exercise-11/                # Number Analysis
-│   ├── 11.cpp
-│   └── readme.md
-├── Exercise-12/                # Recursive Digit Transform
-│   ├── 12.cpp
-│   └── readme.md
+├── OOP Exercises/              # Object-Oriented Programming exercises
+│   ├── README.md
+│   ├── Exercise-1/             # OOP & Inheritance (Product/DiscountedProduct)
+│   │   ├── main.cpp
+│   │   └── readme.md
+│   ├── Exercise-2/             # Song & CD Management
+│   │   ├── exercise.cpp
+│   │   └── readme.md
+│   ├── Exercise-3/             # Ingredient & Dish Composition
+│   │   ├── exercise.cpp
+│   │   └── readme.md
+│   ├── Exercise-4/             # Passenger & Train Management
+│   │   ├── exercise.cpp
+│   │   └── readme.md
+│   ├── Exercise-5/             # List & ListContainer
+│   │   ├── exercise.cpp
+│   │   └── readme.md
+│   ├── Exercise-6/             # Automobile & RentACar
+│   │   ├── exercise.cpp
+│   │   └── readme.md
+│   ├── Exercise-7/             # Stopwatch (Operator Overloading)
+│   │   ├── exercise.cpp
+│   │   └── readme.md
+│   ├── Exercise-8/             # NBAPlayer & AllStarPlayer (Inheritance)
+│   │   ├── exercise.cpp
+│   │   └── readme.md
+│   ├── Exercise-9/             # Chocolate Factory (Operator Overloading)
+│   │   ├── exercise.cpp
+│   │   └── readme.md
+│   ├── Exercise-10/            # Stock Record & Client Portfolio
+│   │   ├── exercise.cpp
+│   │   └── readme.md
+│   ├── Exercise-11/            # Song & CD (from Vezbi Courses)
+│   │   ├── exercise.cpp
+│   │   └── readme.md
+│   └── Exercise-12/            # Train Management (from Vezbi Courses)
+│       ├── exercise.cpp
+│       └── readme.md
+├── structured-programming-exercises/  # Procedural exercises
+│   ├── Exercise-2/             # Matrix Pattern Detection
+│   │   ├── 2.cpp
+│   │   └── readme.md
+│   ├── Exercise-3/             # Matrix Analysis
+│   │   ├── 3.cpp
+│   │   └── readme.md
+│   ├── Exercise-4/             # String Processing
+│   │   ├── 4.cpp
+│   │   └── readme.md
+│   ├── Exercise-5/             # Continued Fractions
+│   │   ├── 5.cpp
+│   │   ├── 5-1.cpp
+│   │   └── readme.md
+│   ├── Exercise-6/             # Substring Extraction
+│   │   ├── 6.cpp
+│   │   └── readme.md
+│   ├── Exercise-7/             # Digit Collection
+│   │   ├── 7.cpp
+│   │   └── readme.md
+│   ├── Exercise-8/             # Recursive Counting
+│   │   ├── 8.cpp
+│   │   └── readme.md
+│   ├── Exercise-9/             # Matrix Transformation
+│   │   ├── 9.cpp
+│   │   └── readme.md
+│   ├── Exercise-10/            # Matrix Reshaping
+│   │   ├── 10.cpp
+│   │   └── readme.md
+│   ├── Exercise-11/            # Number Analysis
+│   │   ├── 11.cpp
+│   │   └── readme.md
+│   └── Exercise-12/            # Recursive Digit Transformation
+│       ├── 12.cpp
+│       └── readme.md
 └── out/                        # Build output (ignored)
 ```
 
