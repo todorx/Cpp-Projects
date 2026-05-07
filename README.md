@@ -1,6 +1,6 @@
 # VS Code Projects
 
-A comprehensive collection of 12 C++ programming exercises covering fundamental and advanced concepts including object-oriented programming, recursion, data structures, and algorithmic problem-solving.
+A comprehensive collection of C++ programming exercises covering fundamental and advanced concepts including object-oriented programming, recursion, data structures, and algorithmic problem-solving.
 
 ## 📋 Project Overview
 
