@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.10.0)
+set(CMAKE_BUILD_TYPE Debug)
 project(VS-Code-Projects VERSION 0.1.0 LANGUAGES C CXX)
 
 add_executable(VS-Code-Projects "OOP Exercises/Exercise-1/main.cpp"
@@ -24,5 +25,7 @@ add_executable(VS-Code-Projects "OOP Exercises/Exercise-1/main.cpp"
     structured-programming-exercises/Exercise-9/9.cpp
     structured-programming-exercises/Exercise-10/10.cpp
     structured-programming-exercises/Exercise-11/11.cpp
-    structured-programming-exercises/Exercise-12/12.cpp)
+    structured-programming-exercises/Exercise-12/12.cpp
+    "OOP Exercises/Exercise-14/exercise.cpp"
+    structured-programming-exercises/Exercise-13/exercise.cpp)
 
