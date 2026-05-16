@@ -1,27 +1,21 @@
 #include <iostream>
 using namespace std;
 
-double rez(int *niza,int n, int brojac){
-    if(brojac == n-1) return niza[brojac];
+double calculateFraction(int* values, int n, int index) {
+  if (index == n - 1) return values[index];
 
-
-    return *(niza + brojac) + 1.0 / rez(niza, n, brojac + 1);
-
-
+  return *(values + index) + 1.0 / calculateFraction(values, n, index + 1);
 }
 
+int main() {
+  int n;
+  cin >> n;
 
-int main(){
-    int n;
-    cin>>n;
+  int values[n];
 
-    int niza[n];
+  for (int i = 0; i < n; i++) {
+    cin >> values[i];
+  }
 
-    for (int  i = 0; i < n; i++)
-    {
-        cin>>niza[i];
-    }
-
-    cout<<rez(niza, n, 0);
-    
+  cout << calculateFraction(values, n, 0);
 }

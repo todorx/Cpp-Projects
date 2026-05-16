@@ -1,25 +1,47 @@
-For a natural number `a` we say that it is a **rounding** of another natural number `b` **iff** the digits equal to `9` in `b` are replaced by `7` in `a`.
+# Problem 12
 
-**Example.** The number `734775` is a poramnuvanje of `934795`.
+Read an integer `X`, the matrix dimensions `M` and `N`, and then the `M x N` matrix elements from standard input. Transform the rows of the matrix as follows:
 
-Read an unknown number of integers (no more than 100) from standard input, until a value is entered that cannot be interpreted as an integer.
+- If the sum of the elements in a row is greater than `X`, set all elements of that row to `1`.
+- If the sum of the elements in a row is less than `X`, set all elements of that row to `-1`.
+- If the sum of the elements in a row is equal to `X`, set all elements of that row to `0`.
 
-Your task is to print the smallest 5 roundings of all entered numbers, ordered from smallest to largest.
+Print the transformed matrix.
 
-**Note:** If fewer than 5 numbers are entered, print as many results as there are inputs.
+**Example:**
 
-Computing the poramnuvanje of a given number must be implemented in a separate **recursive function** `poramnet(int a)`.
+```text
+Input
+31
+5 4
+4 2 7 11
+3 8 16 1
+17 8 9 5
+6 14 4 7
+5 15 5 6
 
-**Example.**
+Output
+-1 -1 -1 -1
+-1 -1 -1 -1
+1 1 1 1
+0 0 0 0
+0 0 0 0
+```
 
-For the numbers: `9592, 69403, 100007, 6, 987, 6977, 33439`,
+**Additional example:**
 
-their roundings are: `7572, 67403, 100007, 6, 787, 6777` and `33437`, respectively,
+```text
+Input
+17
+4 6
+1 5 7 2 1 1
+10 0 0 5 1 1
+5 8 3 9 1 0
+9 8 2 5 3 4
 
-and the smallest 5 of them printed in order are: `6 787 6777 7572 33437`.
-
-**For example:**
-
-| Input                                | Result    |
-| :----------------------------------- | :-------- |
-| 5<br>6<br>8<br>9<br>9<br>9<br>9<br>y | 5 6 7 7 7 |
+Output
+0 0 0 0 0 0
+0 0 0 0 0 0
+1 1 1 1 1 1
+1 1 1 1 1 1
+```

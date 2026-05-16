@@ -1,39 +1,32 @@
 #include <iostream>
 using namespace std;
 
-int najznacajnaCifra(int broj)
-{
-    int cifra = 0;
-    int temp = broj;
-    while (broj)
-    {
-        cifra = broj % 10;
-        broj /= 10;
-    }
+int mostSignificantDigit(int number) {
+  int digit = 0;
+  while (number) {
+    digit = number % 10;
+    number /= 10;
+  }
 
-    return cifra;
+  return digit;
 }
 
-int main()
-{
-    int n;
+int main() {
+  int n;
 
-    int najznacaenBroj = 0, nzC = 0;
-    while (cin >> n && n != 0)
-    {
-        for (int i = 0; i < n; i++)
-        {
-            int b;
-            cin >> b;
-            int cf = najznacajnaCifra(b);
-            if (cf > nzC)
-            {
-                nzC = cf;
-                najznacaenBroj = b;
-            }
-        }
-        cout << najznacaenBroj << endl;
-        najznacaenBroj = 0;
-        nzC = 0;
+  int numberWithLargestDigit = 0, largestDigit = 0;
+  while (cin >> n && n != 0) {
+    for (int i = 0; i < n; i++) {
+      int number;
+      cin >> number;
+      int digit = mostSignificantDigit(number);
+      if (digit > largestDigit) {
+        largestDigit = digit;
+        numberWithLargestDigit = number;
+      }
     }
+    cout << numberWithLargestDigit << endl;
+    numberWithLargestDigit = 0;
+    largestDigit = 0;
+  }
 }

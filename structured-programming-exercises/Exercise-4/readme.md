@@ -1,10 +1,13 @@
-Read an unknown number of lines from standard input until a line containing `0` is read.
-Find the longest line that contains at least **2 digits**.
-Then print to standard output the characters from that longest line that are located between the **first and the last digit** (inclusive) in the same order. If there are multiple such lines, print the **last** one.
-Assume no line is longer than **100 characters**.
+# Problem 4
+
+Implement a **recursive** function that computes the value of the following continued fraction for an integer array `[a₀, a₁, ..., aₙ₋₁]`.
+
+(math preserved)
+
+Write a program that reads an integer `N`, then reads `N` integers (no more than 100), calls the recursive function, and prints the result on a new line.
 
 **Example:**
 
-| Input                                                                                           | Output                                |
-| ----------------------------------------------------------------------------------------------- | ------------------------------------- |
-| `aaa123aa222aa2aaa23aaaaa22` `aaaaaaaaaaaa` `23aaaa` `123 aaa aaa aaa aaa 12345 aaa aaa 2a` `0` | `123 aaa aaa aaa aaa 12345 aaa aaa 2` |
+| Input                                                                                                                                               | Result    |
+| --------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
+| `50 50 8 43 32 29 4 23 26 17 16 30 16 20 42 41 24 36 27 38 43 22 10 27 14 48 21 20 40 36 13 10 28 33 3 8 3 6 49 23 23 12 31 37 33 12 47 32 42 16 1` | `50.1246` |

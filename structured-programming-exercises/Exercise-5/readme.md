@@ -1,11 +1,19 @@
-Implement a **recursive** function that computes the value of the following continued fraction for an integer array `[a₀, a₁, ..., aₙ₋₁]`:
+# Problem 5
 
-(math preserved)
+For a natural number `a`, say that it is a **rounding** of another natural number `b` if the digits equal to `9` in `b` are replaced by `7` in `a`.
 
-Write a program that reads an integer `N`, then reads `N` integers (no more than 100). Call the recursive function and print the result on a new line.
+Read an unknown number of integers (no more than 100) from standard input until a value is entered that cannot be interpreted as an integer.
+
+Print the smallest 5 roundings of all entered numbers, ordered from smallest to largest.
+
+**Note:** If fewer than 5 numbers are entered, print as many results as there are inputs.
+
+Computing the rounding of a given number must be implemented in a separate **recursive function** `replaceNinesWithSevens(int a)`.
 
 **Example:**
 
-| Input                                                                                                                                                | Result    |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
-| `50  50 8 43 32 29 4 23 26 17 16 30 16 20 42 41 24 36 27 38 43 22 10 27 14 48 21 20 40 36 13 10 28 33 3 8 3 6 49 23 23 12 31 37 33 12 47 32 42 16 1` | `50.1246` |
+For the numbers `9592, 69403, 100007, 6, 987, 6977, 33439`, their roundings are `7572, 67403, 100007, 6, 787, 6777, 33437`, and the smallest 5 of them printed in order are `6 787 6777 7572 33437`.
+
+| Input                                  | Result      |
+| -------------------------------------- | ----------- |
+| `5<br>6<br>8<br>9<br>9<br>9<br>9<br>y` | `5 6 7 7 7` |

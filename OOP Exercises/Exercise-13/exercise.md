@@ -1,33 +1,33 @@
-# Задача: Издавачка куќа FINKI-Education
+# Task: FINKI-Education Publishing House
 
-Издавачката куќа **FINKI-Education** издава онлајн и печатени книги. За секоја книга се чуваат податоци за:
+The **FINKI-Education** publishing house publishes online and printed books. For each book, the following data are stored:
 
-- **ISBN број** (низа од најмногу 20 знаци)
-- **Наслов** (низа од најмногу 50 знаци)
-- **Автор** (низа од најмногу 30 знаци)
-- **Основна цена** изразена во $ (реален број)
+- **ISBN number** (a string of at most 20 characters)
+- **Title** (a string of at most 50 characters)
+- **Author** (a string of at most 30 characters)
+- **Base price** expressed in $ (a real number)
 
-Класата за опишување на книгите е **апстрактна**.
+The class used to describe books is **abstract**.
 
-### Изведени класи:
+### Derived classes:
 
-1.  **Онлајн книга (OnlineBook):**
-    - Дополнително се чуваат: **URL** од каде може да се симне (динамички резервирана низа од знаци) и **големина** изразена во MB (цел број).
-2.  **Печатена книга (PrintBook):**
-    - Дополнително се чуваат: **маса** изразена во килограми (реален број) и дали ја има на **залиха** (логичка променлива).
+1. **OnlineBook:**
+   - Additionally stored: **URL** from which it can be downloaded (dynamically allocated string) and **size** expressed in MB (integer).
+2. **PrintBook:**
+   - Additionally stored: **weight** expressed in kilograms (real number) and whether it is in **stock** (logical variable).
 
-### Методи и функции:
+### Methods and functions:
 
-- **Метод `bookPrice`:** За пресметување на продажната цена:
-  - За **онлајн книга** - цената се зголемува за **20%** од основната цена ако книгата е поголема од **20MB**.
-  - За **печатена книга** - цената се зголемува за **15%** од основната цена ако масата на книгата е поголема од **0.7kg**.
-- **Преоптоварен оператор `>`:** За споредба на две книги од каков било вид според нивната продажна цена.
-- **Преоптоварен оператор `<<`:** За печатење на податоците во формат: `ISBN: Наслов, Автор Цена`.
-- **Функција `mostExpensiveBook`:**
-  - Потпис: `void mostExpensiveBook (Book** books, int n)`
-  - Функцијата треба да го испечати вкупниот број на онлајн книги и вкупниот број на печатени книги во низата посебно.
-  - Потоа, ја наоѓа и ја печати најскапата книга во низата.
+- **Method `bookPrice`:** For calculating the selling price:
+  - For an **online book** - the price increases by **20%** of the base price if the book is larger than **20MB**.
+  - For a **printed book** - the price increases by **15%** of the base price if the book's weight is greater than **0.7kg**.
+- **Overloaded operator `>`:** For comparing two books of any type according to their selling price.
+- **Overloaded operator `<<`:** For printing the data in the format: `ISBN: Title, Author Price`.
+- **Function `mostExpensiveBook`:**
+  - Signature: `void mostExpensiveBook (Book** books, int n)`
+  - The function should print the total number of online books and the total number of printed books in the array separately.
+  - Then, it finds and prints the most expensive book in the array.
 
-### Барања:
+### Requirements:
 
-Да се обезбедат сите потребни функции (конструктори, деструктори, set/get методи) за правилно функционирање на програмата.
+Provide all required functions (constructors, destructors, set/get methods) for the program to work correctly.

@@ -1,20 +1,12 @@
-# Problem 6
+# Problem 3
 
-Read the dimensions of a matrix (m, n <= 100) from standard input, followed by the matrix elements. Generate an array (with at most m elements) where each element is the element in the corresponding row that is farthest from the arithmetic mean of that row. If multiple elements are equally far, take the first one. The order of the array corresponds to the order of the rows.
+Read an unknown number of lines from standard input until a line containing `0` is read.
+Find the longest line that contains at least **2 digits**.
+Then print to standard output the characters from that longest line that are located between the **first and the last digit** (inclusive) in the same order. If there are multiple such lines, print the **last** one.
+Assume no line is longer than **100 characters**.
 
-## Example
+**Example:**
 
-**Input:**
-3 6
-1 2 2 3 4 5
-1 1 2 2 3 3
-1 2 3 4 5 6
-
-**Output:**
-
-## Test cases
-
-| Input                                           | Result  |
-| ----------------------------------------------- | ------- |
-| 4 4<br>1 2 3 4<br>5 6 7 8<br>9 8 7 6<br>5 4 3 2 | 1 5 9 5 |
-| 4 4<br>1 1 2 2<br>7 6 6 7<br>4 5 4 5<br>1 1 1 1 | 1 7 4 1 |
+| Input                                                                                           | Output                                |
+| ----------------------------------------------------------------------------------------------- | ------------------------------------- |
+| `aaa123aa222aa2aaa23aaaaa22` `aaaaaaaaaaaa` `23aaaa` `123 aaa aaa aaa aaa 12345 aaa aaa 2a` `0` | `123 aaa aaa aaa aaa 12345 aaa aaa 2` |

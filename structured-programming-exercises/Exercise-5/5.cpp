@@ -1,28 +1,23 @@
 #include <iostream>
 using namespace std;
 // Helper function used
-double presmetka(int *niza, int n, int br)
-{
-    // if we are at the last term of the continued fraction
-    if (br == n - 1)
-        return niza[br];
+double calculateFraction(int* values, int n, int index) {
+  // if we are at the last term of the continued fraction
+  if (index == n - 1) return values[index];
 
-    // a_br + 1 / (next part of the continued fraction)
-    return niza[br] + 1.0 / presmetka(niza, n, br + 1);
+  // a_br + 1 / (next part of the continued fraction)
+  return values[index] + 1.0 / calculateFraction(values, n, index + 1);
 }
 
-int main()
-{
+int main() {
+  int n;
+  cin >> n;
 
-    int n;
-    cin >> n;
+  int values[100];
 
-    int niza[100];
+  for (int i = 0; i < n; i++) {
+    cin >> values[i];
+  }
 
-    for (int i = 0; i < n; i++)
-    {
-        cin >> niza[i];
-    }
-
-    cout << presmetka(niza, n, 0);
+  cout << calculateFraction(values, n, 0);
 }

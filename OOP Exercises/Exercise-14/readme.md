@@ -1,60 +1,60 @@
-## Дефиниција на класи за возачи
+## Driver Class Definition
 
-### Класа `Vozac`
+### Class `Vozac`
 
-Оваа класа служи како основна (base) класа и ги содржи следните информации:
+This class serves as the base class and contains the following information:
 
-- **Име:** Низа од максимум 100 знаци.
-- **Возраст:** Цел број.
-- **Број на трки:** Цел број.
-- **Ветеран:** Булеова вредност (да/не).
+- **Name:** A string of up to 100 characters.
+- **Age:** An integer.
+- **Number of races:** An integer.
+- **Veteran:** A boolean value (yes/no).
 
-**Оператори кои треба да се преоптоварат:**
+**Operators that should be overloaded:**
 
-- `<<`: За печатење на името, возраста, бројот на трки и ознака `VETERAN` доколку возачот е ветеран.
-- `==`: За споредување на два возачи според нивната **заработувачка по трка**.
-
----
-
-### Изведени класи
-
-#### 1. Класа `Avtomobilist`
-
-Дополнителни податоци:
-
-- **Цена на автомобилот:** Децимален број.
-
-**Пресметки:**
-
-- **Заработувачка по трка:** $\frac{CENA_{AVTOMOBIL}}{5}$
-- **Данок:**
-  - Ако бројот на трки $> 10$, данокот е $15\%$ од заработката.
-  - Во спротивно, данокот е $10\%$ од заработката.
-
-#### 2. Класа `Motociklist`
-
-Дополнителни податоци:
-
-- **Моќност на мотор:** Цел број.
-
-**Пресметки:**
-
-- **Заработувачка по трка:** $MOKJNOST\_NA\_MOTOR \times 20$
-- **Данок:**
-  - Ако е ветеран, данокот е $25\%$ од заработката.
-  - Во спротивно, данокот е $20\%$ од заработката.
+- `<<`: For printing the name, age, number of races, and the label `VETERAN` if the driver is a veteran.
+- `==`: For comparing two drivers according to their **income per race**.
 
 ---
 
-### Надворешна функција
+### Derived classes
+
+#### 1. Class `Avtomobilist`
+
+Additional data:
+
+- **Car price:** A decimal number.
+
+**Calculations:**
+
+- **Income per race:** $\frac{CAR\_PRICE}{5}$
+- **Tax:**
+  - If the number of races is $> 10$, the tax is $15\%$ of the income.
+  - Otherwise, the tax is $10\%$ of the income.
+
+#### 2. Class `Motociklist`
+
+Additional data:
+
+- **Engine power:** An integer.
+
+**Calculations:**
+
+- **Income per race:** $ENGINE\_POWER \times 20$
+- **Tax:**
+  - If the driver is a veteran, the tax is $25\%$ of the income.
+  - Otherwise, the tax is $20\%$ of the income.
+
+---
+
+### External function
 
 `soIstaZarabotuvachka(Vozac **niza, int n, Vozac *v)`
 
-- **Аргументи:** Низа од покажувачи кон `Vozac`, бројот на елементи и покажувач кон конкретен објект од `Vozac`.
-- **Резултат:** Враќа број на возачи кои имаат иста заработувачка по трка како проследениот возач `v`.
+- **Arguments:** An array of pointers to `Vozac`, the number of elements, and a pointer to a specific `Vozac` object.
+- **Result:** Returns the number of drivers that have the same income per race as the passed driver `v`.
 
-### Тест примери
+### Test examples
 
-| Влез (Input)                                                                                                                                          | Резултат (Result)                                                                                                                                                                                                                                                                                         |
-| :---------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 5<br>1<br>Hamilton 30 95 0 55000<br>Vetel 26 88 1 800<br>Barrichello 38 198 0 810<br>Rossi 32 130 1 800<br>Lorenzo 24 45 0 900<br>VozacX 38 198 1 800 | === DANOK ===<br>Hamilton<br>30<br>95<br>1650<br>Vetel<br>26<br>88<br>VETERAN<br>4000<br>Barrichello<br>38<br>198<br>3240<br>Rossi<br>32<br>130<br>VETERAN<br>4000<br>Lorenzo<br>24<br>45<br>3600<br>=== VOZAC X ===<br>VozacX<br>38<br>198<br>VETERAN<br>=== SO ISTA ZARABOTUVACKA KAKO VOZAC X ===<br>2 |
+| Input                                                                                                                                                 | Result                                                                                                                                                                                                                                                                                        |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 5<br>1<br>Hamilton 30 95 0 55000<br>Vetel 26 88 1 800<br>Barrichello 38 198 0 810<br>Rossi 32 130 1 800<br>Lorenzo 24 45 0 900<br>VozacX 38 198 1 800 | === TAX ===<br>Hamilton<br>30<br>95<br>1650<br>Vetel<br>26<br>88<br>VETERAN<br>4000<br>Barrichello<br>38<br>198<br>3240<br>Rossi<br>32<br>130<br>VETERAN<br>4000<br>Lorenzo<br>24<br>45<br>3600<br>=== DRIVER X ===<br>VozacX<br>38<br>198<br>VETERAN<br>=== SAME INCOME AS DRIVER X ===<br>2 |

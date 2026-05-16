@@ -1,57 +1,14 @@
-**Problem 12**
+# Problem 10
 
-Read an integer `X`, the matrix dimensions `M` and `N` (integers), and then the `M x N` matrix elements (integers) from standard input. Write a program that transforms the rows of the matrix as follows:
-
-- If the sum of the elements in a row is **greater** than X, set all elements of that row to `1`.
-- If the sum of the elements in a row is **less** than X, set all elements of that row to `-1`.
-- If the sum of the elements in a row is **equal** to X, set all elements of that row to `0`.
-
-Print the transformed matrix.
-
----
+Read lines of text from standard input until a line containing `#` is read. For each input line, print the count of digits in that line, followed by a colon `:`, then the digits themselves sorted in ascending order by ASCII code. Each input line has at most 100 characters.
 
 **Example:**
 
-**Input:**
-
-```
-31
-5 4
-4 2 7 11
-3 8 16 1
-17 8 9 5
-6 14 4 7
-5 15 5 6
-```
-
-**Output:**
-
-```
--1 -1 -1 -1
--1 -1 -1 -1
-1 1 1 1
-0 0 0 0
-0 0 0 0
-```
-
----
-
-**Additional example:**
-
-```
-Input
-
-17
-4 6
-1 5 7 2 1 1
-10 0 0 5 1 1
-5 8 3 9 1 0
-9 8 2 5 3 4
-
-Output
-
-0 0 0 0 0 0
-0 0 0 0 0 0
-1 1 1 1 1 1
-1 1 1 1 1 1
-```
+| Input                                                     | Result           |
+| --------------------------------------------------------- | ---------------- |
+| `74I9BjpbhbsfX6Ai0xtnmv4csz2gNv`                          | `7:0244679`      |
+| `wtkb3Y82B9oygnG1vhRsMOuman2n894v08w4pI3e4x`              | `14:01223344...` |
+| `p7A3p01U70aeGxwpOptb2rie`                                | `6:012377`       |
+| `nw01MAok4HWisf913hjtiyscgwhdr7w921m7eddhy6ne40fHbsZc3ac` | `14:00112334...` |
+| `Zmwk1yrnqt0LjT6ItS2kH`                                   | `4:0126`         |
+| `#`                                                       |                  |
